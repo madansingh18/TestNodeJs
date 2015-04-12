@@ -21,7 +21,3 @@ io.on('connection', function(socket){
     });
 });
 
-server.listen(app.get('port'),function(){
-    console.log('Socket.io Running');
-});
-
